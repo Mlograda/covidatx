@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='covidatx',         # How you named your package folder (MyLib)
     packages=['covidatx'],   # Chose the same as "name"
-    version='0.1.1',      # Start with a small number and increase it with every change you make
+    version='0.1.2',      # Start with a small number and increase it with every change you make
     # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     license='MIT',
     # Give a short description about your library
@@ -14,16 +14,16 @@ setup(
     # Provide either the link to your github or to your website
     url='https://github.com/Mlograda/covidatx',
     # I explain this later on
-    download_url='https://github.com/Mlograda/covidatx/archive/refs/tags/v0.1.1.tar.gz',
+    download_url='https://github.com/Mlograda/covidatx/archive/refs/tags/v0.1.2.tar.gz',
     # Keywords that define your package best
     keywords=['Covid19', 'Data visualization'],
+    include_package_data=True,
+    package_data={'': ['geo_data/*.*']},
     install_requires=[            # I get to this in a second
         'geopandas',
         'seaborn',
         'matplotlib',
         'pandas',
-        'datetime',
-
     ],
     classifiers=[
         # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
