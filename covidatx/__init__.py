@@ -30,3 +30,4 @@ The package contains two main modules
 
 from covidatx.data import CovidData
 from covidatx.plot import *
+from covidatx import geo_data
