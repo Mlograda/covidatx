@@ -2,16 +2,23 @@
 from distutils.core import setup
 
 
-with open("requirements.txt") as f:
-    requirements = []
-    for library in f.read().splitlines():
-        requirements.append(library)
+# with open("requirements.txt") as f:
+#    requirements = []
+#    for library in f.read().splitlines():
+#        requirements.append(library)
 
-
+requirements = ['.\geo_ped\GDAL-3.3.3-cp38-cp38-win_amd64.whl',
+                '.\geo_ped\pyproj-3.3.0-cp38-cp38-win_amd64.whl',
+                '.\geo_ped\Fiona-1.8.20-cp38-cp38-win_amd64.whl',
+                '.\geo_ped\Shapely-1.8.0-cp38-cp38-win_amd64.whl',
+                '.\geo_ped\geopandas-0.10.2-py2.py3-none-any.whl',
+                'seaborn',
+                'matplotlib',
+                'pandas']
 setup(
     name='covidatx',         # How you named your package folder (MyLib)
     packages=['covidatx'],   # Chose the same as "name"
-    version='0.1.5',      # Start with a small number and increase it with every change you make
+    version='0.1.6',      # Start with a small number and increase it with every change you make
     # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     license='MIT',
     # Give a short description about your library
@@ -22,7 +29,7 @@ setup(
     # Provide either the link to your github or to your website
     url='https://github.com/Mlograda/covidatx',
     # I explain this later on
-    download_url='https://github.com/Mlograda/covidatx/archive/refs/tags/v0.1.5.tar.gz',
+    download_url='https://github.com/Mlograda/covidatx/archive/refs/tags/v0.1.6.tar.gz',
     # Keywords that define your package best
     keywords=['Covid19', 'Data visualization'],
     include_package_data=True,
