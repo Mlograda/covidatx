@@ -1,0 +1,9 @@
+.\geo_dep\GDAL-3.1.1-cp37-cp37m-win_amd64.whl
+.\geo_dep\pyproj-2.6.1.post1-cp37-cp37m-win_amd64.whl
+.\geo_dep\Fiona-1.8.13-cp37-cp37m-win_amd64.whl
+.\geo_dep\Shapely-1.7.0-cp37-cp37m-win_amd64.whl
+.\geo_dep\geopandas-0.8.0-py3-none-any.whl
+seaborn==0.11.1
+matplotlib==3.3.4
+pandas==1.2.4
+geopandas==0.10.2

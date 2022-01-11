@@ -11,7 +11,7 @@ with open("requirements.txt") as f:
 setup(
     name='covidatx',         # How you named your package folder (MyLib)
     packages=['covidatx'],   # Chose the same as "name"
-    version='0.1.3',      # Start with a small number and increase it with every change you make
+    version='0.1.4',      # Start with a small number and increase it with every change you make
     # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     license='MIT',
     # Give a short description about your library
@@ -22,7 +22,7 @@ setup(
     # Provide either the link to your github or to your website
     url='https://github.com/Mlograda/covidatx',
     # I explain this later on
-    download_url='https://github.com/Mlograda/covidatx/archive/refs/tags/v0.1.3.tar.gz',
+    download_url='https://github.com/Mlograda/covidatx/archive/refs/tags/v0.1.4.tar.gz',
     # Keywords that define your package best
     keywords=['Covid19', 'Data visualization'],
     include_package_data=True,
