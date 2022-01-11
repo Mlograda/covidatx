@@ -1,5 +1,13 @@
 
 from distutils.core import setup
+
+
+with open("requirements.txt") as f:
+    requirements = []
+    for library in f.read().splitlines():
+        requirements.append(library)
+
+
 setup(
     name='covidatx',         # How you named your package folder (MyLib)
     packages=['covidatx'],   # Chose the same as "name"
@@ -19,12 +27,7 @@ setup(
     keywords=['Covid19', 'Data visualization'],
     include_package_data=True,
     package_data={'': ['geo_data/*.*']},
-    install_requires=[            # I get to this in a second
-        'geopandas',
-        'seaborn',
-        'matplotlib',
-        'pandas',
-    ],
+    install_requires=requirements,
     classifiers=[
         # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
         'Development Status :: 3 - Alpha',
@@ -39,3 +42,5 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
 )
+
+./geo_dep/ABC-0.0.2-py3-none-any.whl
