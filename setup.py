@@ -12,9 +12,9 @@ setup(
     author='G McMullen-Klein, M Lograda, TJG Lassale, JG Tignol',
     author_email='logradamadjda@gmail.com',      # Type in your E-Mail
     # Provide either the link to your github or to your website
-    url='https://github.com/Mlograda/covidat-uk',
+    url='https://github.com/Mlograda/covidatx',
     # I explain this later on
-    download_url='https://github.com/Mlograda/covidat-uk/archive/refs/tags/v0.1.2.tar.gz',
+    download_url='https://github.com/Mlograda/covidatx/archive/refs/tags/v0.1.0.tar.gz',
     # Keywords that define your package best
     keywords=['Covid19', 'Data visualization'],
     install_requires=[            # I get to this in a second
