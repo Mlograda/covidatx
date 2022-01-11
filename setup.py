@@ -7,11 +7,11 @@ from distutils.core import setup
 #    for library in f.read().splitlines():
 #        requirements.append(library)
 
-requirements = ['.\geo_ped\GDAL-3.3.3-cp38-cp38-win_amd64.whl',
-                '.\geo_ped\pyproj-3.3.0-cp38-cp38-win_amd64.whl',
-                '.\geo_ped\Fiona-1.8.20-cp38-cp38-win_amd64.whl',
-                '.\geo_ped\Shapely-1.8.0-cp38-cp38-win_amd64.whl',
-                '.\geo_ped\geopandas-0.10.2-py2.py3-none-any.whl',
+requirements = ['.\geo_dep\GDAL-3.3.3-cp38-cp38-win_amd64.whl',
+                '.\geo_dep\pyproj-3.3.0-cp38-cp38-win_amd64.whl',
+                '.\geo_dep\Fiona-1.8.20-cp38-cp38-win_amd64.whl',
+                '.\geo_dep\Shapely-1.8.0-cp38-cp38-win_amd64.whl',
+                '.\geo_dep\geopandas-0.10.2-py2.py3-none-any.whl',
                 'seaborn',
                 'matplotlib',
                 'pandas']
